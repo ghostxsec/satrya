@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ghost">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Ghost</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="brand-and-toggler">
+                <a href="../../index.html" class="navbar-brand">satrya</a>
+                <button type="button" class="navbar-toggler" id="navbar-toggler">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+            </div>
+
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="../../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item nav-active">
+                        <a href="../blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../portofolio.html" class="nav-link">Portofolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar-->
+
+<!-- about page -->
+<section class="about container">
+    <div class="title">
+        <h2>BLOG</h2>
+        <div>
+            <h2>My Blog</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- <div class="img-center"> -->
+            <!-- </div> -->
+            
+            <div class="row-center">
+                <h2>Perburuan Bug di Platform Tokopedia</h2>
+                <span><i>Sabtu, 12 Juni 2021</i></span>
+                <br>
+                <img src="../../assets/img/t.jpg" alt="about photo">
+                <br>
+                <p class="text">Semua berawal di tahun 2019 ketika saya telah tamat sekolah, dan merasa bosan. Pada saat itu saya bingung harus memilih
+                kuliah atau tidak. Saya langsung membuka burpsuite dan mengunjungi tokopedia.
+                </p>
+
+                <p class="text">Setelah berselancar sekian lama saya melihat ketika kita menukar bahasa muncul parameter lang kemudian saya mencoba
+                memasukan payload xss
+                https://www.tokopedia.com/ajax?lang=id&quot;&gt;&lt;script&gt;alert(0)&lt;/script&gt; dan pop up muncul</p>
+
+                <p class="text">Dari sejak itu saya mulai sering melakukan pencarian bug di tokopedia. di 2019 saya hanya menemukan
+                    3 bug saja.</p>
+                <img src="../../assets/img/2019_1.png">
+                <br>
+                <img src="../../assets/img/2019_2.png">
+                <br>
+                <img src="../../assets/img/2019_3.png">
+                <p class="text">kemudian di tahun 2020 saya juga menemukan 3 bug tetapi tidak menyenangkan karena bug yang ditemukan
+                    2 out of scope dan 1 duplicate. Di tahun 2020 saya jarang mencari bug karena banyak mengikuti beberapa kompetisi CTF.
+                </p>
+                <img src="../../assets/img/r.png">
+                <p class="text">Di tahun 2021 saya mulai mencari lagi dan saya mendapatkannya. Dari 2 bug ada satu bug yang memiliki
+                    impact lumayan besar sehingga rewardnya cukup tinggi. Untuk temuannya belum boleh dipublikasikan.
+                </p>
+                <img src="../../assets/img/2021_1.png">
+                <p class="text">Mencari bug ini lumayan untuk mengisi waktu luang. Untuk masalah reward di tokopedia tidak sebesar, perusahaan-perusahaan besar
+                    di Hackerone dan Bugcrowd.
+                </p>
+        </div>
+    </div>
+</section>
+<!-- end of about page -->
+
+
+
+    <!-- footer -->
+    <footer class="footer container">
+        <div class="row">
+            <div class="col">
+                <div class="social-links">
+                    <a target="_blank" href="https://twitter.com/ghostxsec"><i class="fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://github.com/ghostxsec"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="http://www.instagram.com/satryawiraa"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+    </footer>
+    <!-- end of footer -->
+
+
+    <!-- js file -->
+    <script src="../../assets/js/script.js"></script>
+</body>
+
+</html>
